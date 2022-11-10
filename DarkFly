@@ -1,0 +1,19 @@
+$pkg install root-repo
+
+$termux-storage-setup
+
+$pkg update -y && pkg upgrade -y
+
+$pkg install git -y
+
+$pkg install wget -y
+
+$pkg install python2
+
+$git clone https://github.com/Ranginang67/DarkFly-Tool
+
+$cd DarkFly
+
+$python2 install.py
+
+$DarkFly
